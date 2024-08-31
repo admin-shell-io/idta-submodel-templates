@@ -2,5 +2,3 @@ name: index
 title: Documentation of the Submodels of the Asset Administration Shell
 version: home
 start_page: ROOT:index.adoc
-nav:
-  - modules/ROOT/nav.adoc
