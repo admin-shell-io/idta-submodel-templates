@@ -1,0 +1,2 @@
+.xref:index.adoc[Submodels of the Asset Administration Shell]
+* Example Release 2024-01-01
