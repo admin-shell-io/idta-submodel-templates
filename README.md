@@ -4,6 +4,8 @@ This is repository contains the structure for building the documentation website
 
 ## Sources
 
+https://github.com/rwth-iat/submodel-templates
+
 ## User-Interface
 The user interface for the documentation is maintained separately in [aas-specs-antora-ui](https://github.com/admin-shell-io/aas-specs-antora-ui). 
 

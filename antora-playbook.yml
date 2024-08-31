@@ -1,10 +1,10 @@
 site:
   title: Submodels of the Asset Administration Shell Documentation
-  url: /
+  url: https://rwth-iat.github.io/submodel-templates-antora
   start_page: index::index.adoc
 
 content:
-  # edit_url: '{web_url}/blob/{refname}/{path}'
+  edit_url: '{web_url}/blob/{refname}/{path}'
   sources:
     - url: .
       branches:
@@ -15,7 +15,7 @@ content:
       branches:
       - main
       start-paths:
-      - published/DEXPI
+      - published_adoc/*
 ui:
   bundle:
     url: https://github.com/rwth-iat/aas-specs-antora-ui/releases/latest/download/ui-bundle.zip
