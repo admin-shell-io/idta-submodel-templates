@@ -13,9 +13,9 @@ content:
       - .
     - url: https://github.com/rwth-iat/submodel-templates
       branches:
-      - main
+      - adoc-integration
       start-paths:
-      - published_adoc/*
+      - published/*/*/*/docs
 ui:
   bundle:
     url: https://github.com/rwth-iat/aas-specs-antora-ui/releases/latest/download/ui-bundle.zip
