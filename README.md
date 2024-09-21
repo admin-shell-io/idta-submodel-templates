@@ -8,9 +8,34 @@ All sources are located under the repository: https://github.com/rwth-iat/submod
 
 ### Directory Structure of the Source Repository
 
-There is only one source repository. All new sources should be added there, complying to the existing folder structure. The structure can be observed in the antora-playbook file.
+There is only one source repository. All new sources should be added there, complying to the existing folder structure.
 
-The regex that is used is ```published/*/*/*/docs```. This is intended to be used to mark specific properties. When a new source is added, it is to be placed under the direcotry published. The main folder should have the name of the submodel. Underneath needs to be version and revision as nested separate folders. Beneath all that is the ```docs``` folder, where all antora related source files are located as usual.
+An Antora documentation repository must be structured to include at least the following:
+```
+docs/
+  modules/
+    module-name/
+      pages/
+        index.adoc
+      nav.adoc
+```
+For a comprehensive guide on structuring your documentation for Antora, see Antora's official documentation on directory structure.
+
+This structure has to be employed in the source repository for submodels that are desired to be published. More specifically, the following structure will be present:
+```
+published/
+  submodel/
+    version/
+      revision/
+        docs/
+          modules/
+            module-name/
+              pages/
+                index.adoc
+              nav.adoc
+```
+
+In this file structure, the files ```submodel```, ```version``` and ```revision``` are not literaries. These will be named accordingly depending on the properties of the submodel (name, versoin, revision). The regex that is used is ```published/*/*/*/docs```. This is intended to be used to mark specific properties. When a new source is added, it is to be placed under the direcotry published. The main folder should have the name of the submodel. Underneath needs to be version and revision as nested separate folders. Beneath all that is the ```docs``` folder, where all antora related source files are located as usual.
 
 When a new submodel is added or created abiding to this scheme, the html and pdf files will be automatically generated and the new submodel will appear on the documentation website.
 
