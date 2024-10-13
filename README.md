@@ -17,7 +17,7 @@ docs/
     module-name/
       pages/
         index.adoc
-      nav.adoc
+      nav.adoc (optional)
 ```
 For a comprehensive guide on structuring your documentation for Antora, see Antora's official documentation on directory structure.
 
@@ -32,7 +32,7 @@ published/
             module-name/
               pages/
                 index.adoc
-              nav.adoc
+              nav.adoc (optional, unrecommended)
 ```
 
 In this file structure, the files ```submodel```, ```version``` and ```revision``` are not literaries. These will be named accordingly depending on the properties of the submodel (name, versoin, revision). The regex that is used is ```published/*/*/*/docs```. This is intended to be used to mark specific properties. When a new source is added, it is to be placed under the direcotry published. The main folder should have the name of the submodel. Underneath needs to be version and revision as nested separate folders. Beneath all that is the ```docs``` folder, where all antora related source files are located as usual.
