@@ -1,6 +1,6 @@
 site:
   title: Submodels of the Asset Administration Shell
-  url: https://rwth-iat.github.io/submodel-templates-antora
+  url: https://admin-shell-io.github.io/submodel-templates-antora
   start_page: index::index.adoc
 
 content:
@@ -18,7 +18,7 @@ content:
       - published/*/*/*/docs
 ui:
   bundle:
-    url: https://github.com/rwth-iat/aas-specs-antora-ui/releases/latest/download/ui-bundle.zip
+    url: https://github.com/admin-shell-io/aas-specs-antora-ui/releases/latest/download/ui-bundle.zip
     snapshot: true
   supplemental_files:
   - path: ui.yml
