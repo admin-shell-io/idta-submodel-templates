@@ -1,3 +1,11 @@
 = Submodels of the Asset Administration Shell
 
 **Welcome to the documentation website of the Submodels of the Asset Administration Shell**
+
+[IMPORTANT]
+====
+The documentation presented here represents only a selection of submodel templates.
+The complete documentation set for all submodel templates is available in the Git repository:
+
+- https://github.com/admin-shell-io/submodel-templates
+====
