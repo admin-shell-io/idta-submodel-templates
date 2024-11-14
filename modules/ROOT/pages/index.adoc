@@ -1,11 +1,11 @@
-= Submodels of the Asset Administration Shell
+= Submodel Templates of the Asset Administration Shell
 
-**Welcome to the documentation website of the Submodels of the Asset Administration Shell**
+**Welcome to the documentation site for the Submodel Templates of the Asset Administration Shell**
 
 [IMPORTANT]
 ====
-The documentation presented here represents only a selection of submodel templates.
-The complete documentation set for all submodel templates is available in the Git repository:
+This documentation provides only a selection of available submodel templates published by IDTA.
+For the complete set of documentation on all submodel templates, please visit the Git repository:
 
 - https://github.com/admin-shell-io/submodel-templates
 ====
