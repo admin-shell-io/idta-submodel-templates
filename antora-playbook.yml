@@ -11,9 +11,9 @@ content:
       - HEAD
       start-paths:
       - .
-    - url: https://github.com/rwth-iat/submodel-templates
+    - url: https://github.com/admin-shell-io/submodel-templates
       branches:
-      - adoc-integration
+      - main
       start-paths:
       - published/*/*/*/docs
 ui:
