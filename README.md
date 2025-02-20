@@ -4,7 +4,7 @@ This is repository contains the structure for building the documentation website
 
 ## Sources
 
-All sources shown in Antora are currently located under the repository: https://github.com/rwth-iat/submodel-templates
+All sources shown in Antora are currently located under the repository: https://github.com/admin-shell-io/submodel-templates
 
 ### Directory Structure of the Source Repository
 
