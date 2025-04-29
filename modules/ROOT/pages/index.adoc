@@ -1,6 +1,6 @@
-= Submodel Templates of the Asset Administration Shell
+= IDTA Submodel Templates
 
-**Welcome to the documentation site for the Submodel Templates of the Asset Administration Shell**
+**Welcome to the documentation site for the IDTA Submodel Templates**
 
 [IMPORTANT]
 ====
