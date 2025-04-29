@@ -1,3 +1,5 @@
 name: index
-version:
+title: IDTA Submodel Templates 
+version: home
 start_page: ROOT:index.adoc
+
