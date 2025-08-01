@@ -13,6 +13,7 @@ content:
     - url: https://github.com/admin-shell-io/submodel-templates
       branches:
       - main
+      - SR/asciidoc-for-SMT
       start-paths:
       - published/*/*/*/docs
 ui:
