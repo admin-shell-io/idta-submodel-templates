@@ -4,8 +4,10 @@
 
 [IMPORTANT]
 ====
-This documentation provides only a selection of available submodel templates published by IDTA.
-For the complete set of documentation on all submodel templates, please visit the Git repository:
-
+This documentation currently provides only a selection of the submodel templates published by IDTA. 
+For the complete set of submodel template documentation, please visit the official Git repository:
 - https://github.com/admin-shell-io/submodel-templates
+
+Please note that this is still a work in progress. We are actively updating the content, and all submodel templates will be made available here soon.
+
 ====
