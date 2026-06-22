@@ -16,6 +16,8 @@ content:
       
       start-paths:
       - published/*/*/*/docs
+      - published/*/*/*/*/docs
+      - published/*/*/*/*/*/docs
 ui:
   bundle:
     url: https://github.com/admin-shell-io/aas-specs-antora-ui/releases/latest/download/ui-bundle.zip
