@@ -12,21 +12,120 @@ content:
       - .
     - url: https://github.com/admin-shell-io/submodel-templates
       branches:
-      - SR/asciidoc-for-SMT
+      - main
       
       start-paths:
       - published/*/*/*/docs
+      - published/*/*/*/*/docs
+      - published/*/*/*/*/*/docs
 ui:
   bundle:
     url: https://github.com/admin-shell-io/aas-specs-antora-ui/releases/latest/download/ui-bundle.zip
     snapshot: true
   supplemental_files:
-  - path: ui.yml
-    contents: |
-      static_files:
-      - .nojekyll
-  - path: .nojekyll
-    
+    - path: ui.yml
+      contents: |
+        static_files:
+        - .nojekyll
+    - path: .nojekyll
+    - path: css/site-extra.css
+      contents: |
+        .breadcrumbs {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          padding: 1rem 0;
+          color: #666;
+          font-size: 0.875rem;
+        }
+
+        .breadcrumbs a {
+          color: #0033cc;
+          text-decoration: none;
+        }
+
+        .page-title {
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+          font-size: 2rem;
+          font-weight: 500;
+          color: #0033cc;
+          margin: 0 0 1.5rem;
+        }
+
+        .lead-paragraph {
+          color: #666;
+          font-size: 1rem;
+          line-height: 1.5;
+          margin-bottom: 3rem;
+          max-width: 800px;
+        }
+
+        /* Horizontal cards container */
+        .horizontal-cards {
+          display: flex;
+          flex-wrap: nowrap;
+          gap: 2rem;
+          justify-content: flex-start;
+          padding: 2rem 0;
+          overflow-x: auto;
+        }
+
+        /* Each card style */
+        .card {
+          flex: 0 0 auto;
+          width: 220px;
+          text-align: left;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+          overflow: hidden;
+        }
+
+        .card img {
+          width: 220px;
+          height: 311px;
+          margin-bottom: 1rem;
+          object-fit: cover;
+          display: block;
+        }
+
+        .card h2 {
+          font-size: 1rem;
+          font-weight: bold;
+          margin: 0.5rem 0;
+        }
+
+        .card p {
+          font-size: 0.875rem;
+          line-height: 1.4;
+          color: #666;
+          margin-bottom: 1rem;
+        }
+
+        .view-button {
+          display: inline-flex;
+          align-items: center;
+          padding: 0.5rem 1rem;
+          background: transparent;
+          color: #0033cc;
+          border: 1px solid #0033cc;
+          border-radius: 4px;
+          text-decoration: none;
+          font-size: 0.875rem;
+          transition: all 0.2s ease;
+        }
+
+        .view-button:hover {
+          background: #0033cc;
+          color: white;
+        }
+
+        .view-button::after {
+          content: "→";
+          margin-left: 0.5rem;
+        }
+
 runtime:
   fetch: true
   
@@ -42,4 +141,7 @@ asciidoc:
     xrefstyle: short
     kroki-server-url: http://localhost:8000
     kroki-fetch-diagram: true
-    kroki-plantuml-include: https://raw.githubusercontent.com/admin-shell-io/aas-specs-antora/refs/heads/main/plantuml/puml-theme-idta.puml
+    plantuml-format: svg
+    kroki-plantuml-include: https://raw.githubusercontent.com/admin-shell-io/aas-specifications/main/plantuml/puml-theme-idta.puml
+    pdf-theme: ./pdf-theme.yml
+
